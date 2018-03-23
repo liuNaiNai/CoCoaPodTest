@@ -1,0 +1,2 @@
+# CoCoaPodTest
+这就是一个用来测试自己的framework来集成到cocoaPod上的
