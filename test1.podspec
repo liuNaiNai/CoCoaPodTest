@@ -24,8 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "ceshi"
 
   s.homepage     = "https://github.com/liuNaiNai/CoCoaPodTest"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -38,7 +37,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = ":type => "MIT""
+    s.license      = { :type => "MIT" }
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -90,8 +89,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "CoCoaPodTest.{h,m}"
-  s.exclude_files = "CoCoaPodTest/Exclude"
+  s.source_files  = "test1.{h,m}"
+  s.exclude_files = "test1/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
